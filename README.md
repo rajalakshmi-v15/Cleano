@@ -3,13 +3,17 @@
 A Py3-package to clean your desktop. 
 Once the script is run, it alerts the user once in 5 hours to clean the desktop if more than 5 files are present.
 
+
 ### Other features
 * The script auto runs and alerts only when the number of files exceeds limit.
 * Alerts user every 5 hours.
 * Function to determine top 10 large files in a given directory (default: home) (recursively traverses the directory)
 * Can be run as an autostart application in ubunutu.
 * Configurable (limit on number of files, time before alert)
-* Works only for Linux
+
+***Caveats***
+  * Works only for Linux
+  * Only a prototype (functional but yet to be refined)
 
 ### Prerequisites
 
@@ -54,7 +58,7 @@ Note: If the process is autorun, the locations of the files should not be change
 
 ## Authors
 
-* **Rajalakshmi.V**  [git repo](https://github.com/rajalakshmi-v15)
+**Rajalakshmi.V**  [git repo](https://github.com/rajalakshmi-v15)
 
 
 
