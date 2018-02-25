@@ -35,9 +35,9 @@ re (regular expressions)
 Create a folder called 'Cleano' in home directory.
 Copy the files in the repo into 'Cleano'.
 
-With the root as 'Cleano', execute the following line:
+With the root as 'Cleano', execute the following line (including paranthesis and ampersand)
 ```
-....~/home/your-name/Cleano$ python3 cleano.py
+....~/home/your-name/Cleano$ (python3 cleano.py &)
 ```
 That's it. This produces periodic alerts to clean your desktop and also does it for you.
 
