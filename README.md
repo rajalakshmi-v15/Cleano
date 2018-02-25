@@ -4,10 +4,13 @@ A Py3-package to clean your desktop.
 Once the script is run, it alerts the user once in 5 hours to clean the desktop if more than 5 files are present.
 
 
+### Key features
+* The script auto runs and alerts **only** when the number of files exceeds limit.
+* Alerts user every 5 hours (default).
+* Function to determine top 10 large files in a given directory (default: home) (recursively traverses the directory).
+* Classifies files without extensions.
+
 ### Other features
-* The script auto runs and alerts only when the number of files exceeds limit.
-* Alerts user every 5 hours.
-* Function to determine top 10 large files in a given directory (default: home) (recursively traverses the directory)
 * Can be run as an autostart application in ubunutu.
 * Configurable (limit on number of files, time before alert)
 
@@ -24,6 +27,7 @@ adscheduler
 os
 sys
 platform
+re (regular expressions)
 ```
 
 ### Installing
